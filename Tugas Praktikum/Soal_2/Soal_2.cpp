@@ -14,9 +14,7 @@ main() {
 			if (j == 0) {
 				tabel_fotokopi[i][j] = k++;
 			} else {
-		
-					tabel_fotokopi[i][j] = 80*l++;
-				
+		tabel_fotokopi[i][j] = 80*l++;		
 			}
 		}
 	}
