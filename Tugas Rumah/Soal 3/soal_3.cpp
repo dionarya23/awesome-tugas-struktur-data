@@ -19,8 +19,14 @@ main() {
     panjang = strlen(kata);
     for (i=0; i<panjang; i++) {
         
-        if (tolower(kata[i]) == 'a' || tolower(kata[i]) == 'i' || tolower(kata[i]) == 'u' || tolower(kata[i]) == 'e' || tolower(kata[i]) == 'o') {
+        if (tolower(kata[i]) == 'a' 
+		     || tolower(kata[i]) == 'i' 
+		     || tolower(kata[i]) == 'u' 
+			 || tolower(kata[i]) == 'e' 
+			 || tolower(kata[i]) == 'o') {
+			 	
             huruf_vokal +=1;
+            
         } else if( tolower(kata[i]) != ' ') {
             non_vokal +=1;
         }

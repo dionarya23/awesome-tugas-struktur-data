@@ -19,12 +19,15 @@ main() {
 		}
 	}
 	
-	printf("Tabel Fotokopi \n======================\n");
+	printf("Tabel Fotokopi \n=================\n\n");
+	printf("=====================\n");
+	printf("== Lembar = Harga ==\n");
 	for(i=0;i<baris;i++) {
+		printf("== ");
 		for(j=0;j<kolom;j++) {
-			printf("%d ", tabel_fotokopi[i][j]);
+			printf(" %d    = ", tabel_fotokopi[i][j]);
 		}
-		printf("\n");
+		printf("\n=====================\n");
 	}
 	
 	getch();
